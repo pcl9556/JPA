@@ -9,6 +9,7 @@
    
 ✨ JPA
    userRepository.findById(1L);
+   
 💥 핵심 차이
 | MyBatis   | JPA    |
 | --------- | ------ |
