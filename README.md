@@ -4,10 +4,11 @@
 💡 객체를 DB에 자동으로 매핑해주는 ORM 기술
 
 ## 2. MyBatis vs JPA 차이
-- MyBatis
- ✨ SELECT * FROM user WHERE id = 1;
-- JPA
- ✨ userRepository.findById(1L);
+✨ MyBatis
+   SELECT * FROM user WHERE id = 1;
+   
+✨ JPA
+   userRepository.findById(1L);
 💥 핵심 차이
 | MyBatis   | JPA    |
 | --------- | ------ |
